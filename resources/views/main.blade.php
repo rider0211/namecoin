@@ -97,17 +97,19 @@
                                             <div class="row mb-30-none">
                                                 <div class="col-sm-6 col-lg-5">
                                                     <h4>How to get Wallet Address</h4>
-                                                    <div onmouseover='changeImage("step1")'><p><h6>1. Download and Install wallet.</h6></p></div>
-                                                    <div onmouseover='changeImage("step2")'><p><h6>2. Enter Wallet Name.</h6></p></div>
-                                                    <div onmouseover='changeImage("step3")'><p><h6>3. Select Standard Wallet.</h6></p></div>
-                                                    <div onmouseover='changeImage("step4")'><p><h6>4. Select create new seed.</h6></p></div>
-                                                    <div onmouseover='changeImage("step5")'><p><h6>5. Copy Wallet Seed.</h6></p></div>
-                                                    <div onmouseover='changeImage("step6")'><p><h6>6. Enter Wallet Seed.</h6></p></div>
-                                                    <div onmouseover='changeImage("step7")'><p><h6>7. Set Password.</h6></p></div>
-                                                    <div onmouseover='changeImage("step8")'><p><h6>8. Click View/Show Addresses.</h6></p></div>
+                                                    <div><p><h6>1. Download and Install wallet.</h6></p></div>
+                                                    <div onmouseover='changeImage("step1")'><p><h6>2. Enter Wallet Name.</h6></p></div>
+                                                    <div onmouseover='changeImage("step2")'><p><h6>3. Select Standard Wallet.</h6></p></div>
+                                                    <div onmouseover='changeImage("step3")'><p><h6>4. Select create new seed.</h6></p></div>
+                                                    <div onmouseover='changeImage("step4")'><p><h6>5. Select Legacy.</h6></p></div>
+                                                    <div onmouseover='changeImage("step5")'><p><h6>6. Copy Wallet Seed.</h6></p></div>
+                                                    <div onmouseover='changeImage("step6")'><p><h6>7. Enter Wallet Seed.</h6></p></div>
+                                                    <div onmouseover='changeImage("step7")'><p><h6>8. Set Password.</h6></p></div>
+                                                    <div onmouseover='changeImage("step8")'><p><h6>9. Click View/Show Addresses.</h6></p></div>
+                                                    <div onmouseover='changeImage("step9")'><p><h6>10. Click Addresses Tab.</h6></p></div>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-7" style="margin-top:-25px">
-                                                    <img id="describeImage" src="./assets/images/step8.jpg" alt="blog">
+                                                    <img id="describeImage" src="./assets/images/describe/step1.jpg" alt="blog">
                                                 </div>
                                             </div>
                                         </div>
