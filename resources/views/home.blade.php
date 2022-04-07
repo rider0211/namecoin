@@ -1,86 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>Mosto - Software and App Landing Pages HTML Template</title>
-
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/animate.css">
-    <link rel="stylesheet" href="./assets/css/nice-select.css">
-    <link rel="stylesheet" href="./assets/css/owl.min.css">
-    <link rel="stylesheet" href="./assets/css/jquery-ui.min.css">
-    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="./assets/css/flaticon.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-</head>
-
-<body>
-    <!--============= ScrollToTop Section Starts Here =============-->
-    <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
-    <a href="#0" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
-    <div class="overlay"></div>
-    <!--============= ScrollToTop Section Ends Here =============-->
-
-
-    <!--============= Header Section Starts Here =============-->
-    <header class="header-section">
-        <div class="container">
-            <div class="header-wrapper">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="./assets/images/logo/logo.png" alt="logo">
-                    </a>
-                </div>
-                <ul class="menu">
-                    <li>
-                        <a href="#0">Home</a>
-                    </li>
-                    <li>
-                        <a href="#0">Feature</a>
-                    </li>
-                    <li>
-                        <a href="pricing-plan.html">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#0">Pages</a>
-                    </li>
-
-                    <li>
-                        <a href="contact.html">contact</a>
-                    </li>
-                    <li class="d-sm-none">
-                        <a href="#0" class="m-0 header-button">Get Mosto</a>
-                    </li>
-                </ul>
-                <div class="header-bar d-lg-none">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="header-right">
-                    <a href="#0" class="header-button d-none d-sm-inline-block">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!--============= Header Section Ends Here =============-->
-
-
+@include('common.header')
     <!--============= Banner Section Starts Here =============-->
     <section class="banner-9 bg_img oh pos-rel" data-background="./assets/images/banner/banner-9-bg.jpg">
         <div class="container">
@@ -88,8 +6,8 @@
                 <h1 class="title">Success Start With A Great Apps</h1>
                 <p>The simple, intuitive and powerful app to manage your work.</p>
                 <div class="banner-button-group">
-                    <a href="#0" class="button-4">Start Using for Free</a>
-                    <a href="#0" class="button-4 active">Explore Features</a>
+                    <!-- <a href="#0" class="button-4">Start Using for Free</a> -->
+                    <a href="/main" class="button-4 active">Get Start</a>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -564,76 +482,4 @@
     </section>
     <!--============= Coverage Section Ends Here =============-->
 
-
-    <!--============= Footer Section Starts Here =============-->
-    <footer class="footer-section bg_img" data-background="./assets/images/footer/footer-bg.jpg">
-        <div class="container">
-            <div class="footer-top padding-top padding-bottom">
-                <div class="logo">
-                    <a href="#0">
-                        <img src="./assets/images/logo/footer-logo.png" alt="logo">
-                    </a>
-                </div>
-                <ul class="social-icons">
-                    <li>
-                        <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="active"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-pinterest-p"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-google-plus-g"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-instagram"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-bottom">
-                <ul class="footer-link">
-                    <li>
-                        <a href="#0">About</a>
-                    </li>
-                    <li>
-                        <a href="#0">FAQs</a>
-                    </li>
-                    <li>
-                        <a href="#0">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#0">Terms of Service</a>
-                    </li>
-                    <li>
-                        <a href="#0">Privacy</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="copyright">
-                <p>
-                    Copyright © 2021.All Rights Reserved By <a href="#0">Mosto</a>
-                </p>
-            </div>
-        </div>
-    </footer>
-    <!--============= Footer Section Ends Here =============-->
-
-    <script src="./assets/js/jquery-3.3.1.min.js"></script>
-    <script src="./assets/js/modernizr-3.6.0.min.js"></script>
-    <script src="./assets/js/plugins.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/magnific-popup.min.js"></script>
-    <script src="./assets/js/jquery-ui.min.js"></script>
-    <script src="./assets/js/wow.min.js"></script>
-    <script src="./assets/js/waypoints.js"></script>
-    <script src="./assets/js/nice-select.js"></script>
-    <script src="./assets/js/owl.min.js"></script>
-    <script src="./assets/js/counterup.min.js"></script>
-    <script src="./assets/js/paroller.js"></script>
-    <script src="./assets/js/main.js"></script>
-
-</body>
-
-</html>
+@include('common.footer')

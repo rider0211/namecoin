@@ -28,6 +28,13 @@ use App\Http\Controllers\ContactController;
 
 Route::get('/', [HomeController::class, "index"])->name("home");
 Route::post('/order', [HomeController::class, "order"])->name("order");
+Route::get('/main', [HomeController::class, "main"])->name("main");
+Route::post('/register_wallet_Address', [HomeController::class, "regist_wallet"])->name("regist_wallet");
+Route::post('/findDomainName', [HomeController::class, "findDomainName"])->name("findDomainName");
+Route::post('/validate_twitter_displayName', [HomeController::class, "validateTwitterName"])->name("validateTwitterName");
+Route::post('/confirm_email', [HomeController::class, "confirmEmail"])->name("confirmEmail");
+
+
 // Route::get('/home', [HomeController::class, "index"]);
 
 // Route::get('buying', [BuyController::class, "index"])->name("buying");

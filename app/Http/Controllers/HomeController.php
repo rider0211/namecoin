@@ -33,4 +33,22 @@ class HomeController extends Controller
         
         // return redirect()->back();
     }
+    public function main(Request $req)
+    {
+        return view('main');
+    }
+
+    public function regist_wallet(Request $req){
+        echo "success";
+    }
+    public function findDomainName(Request $req){
+        echo "success";
+    }
+    public function validateTwitterName(Request $req){
+        echo "success";
+    }
+    public function confirmEmail(Request $req){
+        echo "success";
+    }
+    
 }
