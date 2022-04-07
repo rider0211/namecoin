@@ -87,7 +87,6 @@ function confirmEmail(res){
     if(!email_validate){
         swal("Oops!", "Please input correct your email!");  
     }else{
-        console.log("fefef");
         $.post("/confirm_email",
         {
             _token: csrf,

@@ -457,7 +457,6 @@ function getValidEnumValue(enumType, keyOrValue)
 function goToNextStep(wizard, options, state)
 {
     var currentIndex = state.currentIndex;
-    console.log(currentIndex);
     switch (currentIndex) {
         case 0:
             registerWalletAddress(res=>{
