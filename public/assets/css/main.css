@@ -8427,7 +8427,7 @@ input[type="submit"] {
 @media (max-width: 575px) {
     .download-item {
         padding: 0 5px;
-        width: 50%;
+        /* width: 50%; */
     }
 
     .download-item .thumb {

@@ -95,7 +95,7 @@
                                         </div>
                                         <div class="col-12 padding-top">
                                             <div class="row mb-30-none">
-                                                <div class="col-sm-6 col-lg-5">
+                                                <div class="col-sm-6 col-lg-5" style="margin-bottom:50px">
                                                     <h4>How to get Wallet Address</h4>
                                                     <div><p><h6>1. Download and Install wallet.</h6></p></div>
                                                     <div onmouseover='changeImage("step1")'><p><h6>2. Enter Wallet Name.</h6></p></div>
@@ -109,7 +109,7 @@
                                                     <div onmouseover='changeImage("step9")'><p><h6>10. Click Addresses Tab.</h6></p></div>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-7" style="margin-top:-25px">
-                                                    <img id="describeImage" src="./assets/images/describe/step1.jpg" alt="blog">
+                                                    <img id="describeImage" src="./assets/images/describe/step1.jpg" style="max-width: 100%;" alt="blog">
                                                 </div>
                                             </div>
                                         </div>
